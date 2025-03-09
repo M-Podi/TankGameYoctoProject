@@ -6,6 +6,9 @@ A Yocto project that includes a tank game for Raspberry Pi 4.
 
 This project contains a custom Yocto layer (`meta-tank-game`) that adds a tank game to a Yocto image for Raspberry Pi 4. The game runs automatically at system startup.
 
+https://github.com/user-attachments/assets/08f128c0-8952-45dd-abb7-5aa00917ba57
+
+
 ## Requirements
 
 - Yocto Project (tested with version kirkstone)
