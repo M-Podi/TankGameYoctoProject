@@ -1,0 +1,14 @@
+[Unit]
+Description=Tank Game
+After=multi-user.target
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/tank-game
+StandardInput=tty
+StandardOutput=tty
+TTYPath=/dev/tty1
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target
